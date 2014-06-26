@@ -3,13 +3,13 @@
 /**
  * @file limit the_excerpt()
  *
- * this should go into the functions.php of yourTheme.
- * replace yourTheme with your Theme name.
+ * This should go into the functions.php of yourTheme.
+ * Replace yourTheme with your theme name.
  *
  * @see http://codex.wordpress.org/Function_Reference/the_excerpt#Control_Excerpt_Length_using_Filters
  */
 function yourTheme_excerpt_length( $length ) {
-  // set words here
+  // set words count here
   return 20;
 }
 
