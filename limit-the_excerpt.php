@@ -10,7 +10,7 @@
  */
 function yourTheme_excerpt_length( $length ) {
   // set words here
-	return 20;
+  return 20;
 }
 
 add_filter( 'excerpt_length', 'yourTheme_excerpt_length', 999 );
